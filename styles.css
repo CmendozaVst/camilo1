@@ -82,4 +82,18 @@ footer {
     padding: 20px;
     margin-top: 30px;
     border-top: 1px solid #ddd;
+}/* Responsive Design */
+@media (max-width: 768px) {
+    #libros .libro {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    header {
+        padding: 30px 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
 }
