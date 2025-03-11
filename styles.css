@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}/* Estilos del encabezado */
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0;
+}/* Estilos para la sección de habilidades */
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#habilidades li {
+    padding: 8px 15px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    display: inline-block;
+}/* Estilos para la sección de libros */
+#libros {
+    margin-top: 30px;
+}
+
+#libros .libro {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#libros img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#libros h3 {
+    margin: 10px 0 5px;
+}/* Estilos para la sección de marca personal */
+#marca {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+#marca h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}/* Responsive Design */
+@media (max-width: 768px) {
+    #libros .libro {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    header {
+        padding: 30px 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+}
